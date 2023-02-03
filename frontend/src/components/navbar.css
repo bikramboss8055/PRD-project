@@ -1,0 +1,23 @@
+.navbar{
+    animation: changeBg 5s infinite alternate linear ;
+}
+@keyframes changeBg{
+    0%{
+        background: aqua;
+    }
+    25%{
+        background: #60d394;
+    }
+    50%{
+        background: #aaf683;
+    }
+    75%{
+        background: #ffd97d;
+    }
+    100%{
+        background: palevioletred;
+    }
+}
+
+
+
