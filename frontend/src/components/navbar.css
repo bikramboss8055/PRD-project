@@ -1,5 +1,5 @@
 .navbar{
-    animation: changeBg 5s infinite alternate linear ;
+    animation: changeBg .5s infinite alternate linear ;
 }
 @keyframes changeBg{
     0%{

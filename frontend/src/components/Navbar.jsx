@@ -1,15 +1,28 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { Box, Button, Flex, Image, Input } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Input, ListItem, UnorderedList } from "@chakra-ui/react";
 import xsell_logo from "../resource/X-sell_logo.png";
-import { FiSearch, FiPlus, FiMenu, FiChevronUp,FiChevronDown } from "react-icons/fi";
+import {
+  FiSearch,
+  FiPlus,
+  FiMenu,
+  FiChevronUp,
+  FiChevronDown,
+  FiList,
+  FiX,
+} from "react-icons/fi";
 import Category from "./Category";
 function Navbar() {
-  let [category, setCategory]= useState(false)
+  let [category, setCategory] = useState(false);
 
   return (
     <div>
-      <Box className="navbar" w="100%" py={"0.5rem"} align={"center"}>
+      <Box
+        //  className="navbar"
+        w="100%"
+        py={"0.5rem"}
+        align={"center"}
+      >
         <Flex
           align="center"
           mx={"auto"}
@@ -131,25 +144,71 @@ function Navbar() {
           </Button>
         </Flex>
       </Box>
-      <Box w={"100%"} bg='grey' color={"white"}>
-        <Flex pl={220} gap={150}>
-          <Flex textAlign={"center"} position='relative' onClick={()=>setCategory(!category)}>
-            All Categories
-            {category && <Category value={'black'}/>}
-            {category? <FiChevronUp style={{ margin: "5px 3px",fontSize:'20px' }} />:<FiChevronDown  style={{ margin: "5px 3px",fontSize:'20px' }}/>}
-            
+      {/* menu bar */}
+      <Box
+        
+        fontSize={{ base: 12, sm: 12, md: 15, lg: 17, xl: 17, "2xl": 17 }}
+        bg="grey"
+        color={"white"}
+        
+      >
+        <Flex
+          pl={{ base: 2, sm: 2, md: 70, lg: 100, xl: 200, "2xl": 220 }}
+          gap={{ base: 0, sm: 0, md: 85, lg: 115, xl: 140 }}
+          w={{
+            base: "95%",
+            sm: "95%",
+            md: "97%",
+            lg: "95%",
+            xl: "90%",
+            "2xl": "90%",
+          }}
+          align='center'
+        >
+          <Flex
+            display={{
+              base: "block",
+              sm: "block",
+              md: "none",
+              lg: "none",
+              xl: "none",
+              "2xl": "none",
+            }}
+            textAlign={"center"}
+            position="relative"
+            onClick={() => setCategory(!category)}
+          >
+          <Category/>
           </Flex>
-          <Flex>
-            <ul>
-              <Flex gap={50} listStyleType="none">
-                <li>Mobiles</li>
-                <li>Cars</li>
-                <li>Fashion</li>
-                <li>Furniture</li>
-                <li>Electronic Appliances</li>
-              </Flex>
-            </ul>
+          <Flex
+            textAlign={"center"}
+            position="relative"
+            onClick={() => setCategory(!category)}
+            display={{
+              base: "none",
+              sm: "none",
+              md: "flex",
+              lg: "flex",
+              xl: "flex",
+              "2xl": "flex",
+            }}
+          >
+            <Category />
           </Flex>
+          <UnorderedList  display={'flex'} justifyContent={'space-between'} width={{base: "100%",
+              sm: "80%",
+              md: "80%",
+              lg: "80%",
+              xl: "60%",
+              "2xl": "70%",}}
+              // border='1px solid'
+                listStyleType="none">
+              <ListItem>Mobiles</ListItem>
+                <ListItem>Cars</ListItem>
+                <ListItem>Fashion</ListItem>
+                <ListItem>Furniture</ListItem>
+                <ListItem>Electronics</ListItem>
+            </UnorderedList>
         </Flex>
       </Box>
     </div>
