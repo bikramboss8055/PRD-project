@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { Box, Button, Flex, Image, Input, ListItem, UnorderedList } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Input, Link, ListItem, UnorderedList } from "@chakra-ui/react";
 import xsell_logo from "../resource/X-sell_logo.png";
 import {
   FiSearch,
@@ -11,6 +11,7 @@ import {
   FiList,
   FiX,
 } from "react-icons/fi";
+import Login from './Login'
 import Category from "./Category";
 function Navbar() {
   let [category, setCategory] = useState(false);
@@ -127,7 +128,7 @@ function Navbar() {
               base: "2rem",
               sm: "2rem",
               md: "1.5rem",
-              lg: "1.2rem",
+              lg: "1.2rem", 
               xl: "1.5rem",
               "2xl": "1.5rem",
             }}
@@ -139,8 +140,9 @@ function Navbar() {
               xl: "inline-block",
               "2xl": "inline-block",
             }}
+
           >
-            Login
+           <Link to={"/Login"}>Login</Link>
           </Button>
         </Flex>
       </Box>
@@ -201,7 +203,7 @@ function Navbar() {
               lg: "80%",
               xl: "60%",
               "2xl": "70%",}}
-              // border='1px solid'
+             
                 listStyleType="none">
               <ListItem>Mobiles</ListItem>
                 <ListItem>Cars</ListItem>
