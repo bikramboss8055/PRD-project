@@ -14,7 +14,7 @@ import { BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <Box>
+    <Box >
       <Flex
         justify={"center"}
         justifyContent="space-evenly"
@@ -170,7 +170,7 @@ const Footer = () => {
       {/* ------------------------ */}
       <Flex
         justify={"space-around"}
-        align={"center"}
+        align={'initial'}
         p={"5px 0px"}
         bg={"#e5e5f7"}
         opacity={0.8}

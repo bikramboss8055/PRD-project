@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { Box, Button, Flex, Image, Input, Link, ListItem, UnorderedList } from "@chakra-ui/react";
-import xsell_logo from "../resource/X-sell_logo.png";
+import { Box, Button, Flex, Image, Input, ListItem, UnorderedList } from "@chakra-ui/react";
+import xsell_logo from "../resource/X-new.png";
+import xsell_logo2 from "../resource/X-new2.png";
 import {
   FiSearch,
   FiPlus,
@@ -13,6 +14,8 @@ import {
 } from "react-icons/fi";
 import Login from './Login'
 import Category from "./Category";
+import { Link } from "react-router-dom";
+import Sidebar from "./Sidebar";
 function Navbar() {
   let [category, setCategory] = useState(false);
 
@@ -26,8 +29,8 @@ function Navbar() {
       >
         <Flex
           align="center"
-          mx={"auto"}
-          gap={30}
+          // mx={"auto"}
+          gap={{base:'5px',sm:'5px',md:'10px',lg:'20px',xl:'30px','2xl':'30px'}}
           w={{
             base: "95%",
             sm: "95%",
@@ -38,16 +41,18 @@ function Navbar() {
           }}
         >
           <Box
-            w={{
-              base: "10%",
-              sm: "7%",
-              md: "6%",
-              lg: "4%",
-              xl: "4%",
-              "2xl": "4%",
-            }}
+            // w={{
+            //   base: "10%",
+            //   sm: "7%",
+            //   md: "16%",
+            //   lg: "13%",
+            //   xl: "10%",
+            //   "2xl": "12%",
+            // }}
+
           >
-            <Image src={xsell_logo} alt="logo" h={"auto"} width="100%" />
+            <Image display={{base:'none',sm:'none',md:'inline'}} src={xsell_logo} alt="logo" maxWidth={'150px'}/>
+            <Image display={{base:'inline',sm:'inline',md:'none'}} src={xsell_logo2} alt="logo" maxWidth={'80px'}/>
           </Box>
           <Input
             placeholder="select city"
@@ -101,11 +106,13 @@ function Navbar() {
               "2xl": "none",
             }}
           >
-            <FiMenu fontSize={"2rem"} />
+            
+            <Sidebar/>
           </Box>
 
           <Button
-            leftIcon={<FiPlus />}
+            leftIcon={<FiPlus  />}
+            
             colorScheme="whatsapp"
             variant="solid"
             pr={"2rem"}
@@ -127,8 +134,8 @@ function Navbar() {
             pr={{
               base: "2rem",
               sm: "2rem",
-              md: "1.5rem",
-              lg: "1.2rem", 
+              md: "1.6rem",
+              lg: "1.5rem", 
               xl: "1.5rem",
               "2xl": "1.5rem",
             }}
@@ -142,7 +149,7 @@ function Navbar() {
             }}
 
           >
-           <Link to={"/Login"}>Login</Link>
+           <Link to={"/login"}>Login</Link>
           </Button>
         </Flex>
       </Box>
