@@ -1,0 +1,290 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "brand": "bajaj ",
+      "title": "well maintained 2020 model pulser",
+      "description": "pulser ns125 ",
+      "price": "70000",
+      "category": "bikes",
+      "location": "raniganj,West Bengal",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/v4c7160uvvfk3-IN/image;s=300x600;q=60",
+      "owner": "Arjun sen"
+    },
+    {
+      "id": 2,
+      "brand": "apple",
+      "title": "iphone 13 pro max",
+      "description": "refurbrished iphone 13 pro max good consition",
+      "price": "45000",
+      "category": "Smart Phones",
+      "location": "andal,West Bengal",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/y6z0ay7z0ebi2-IN/image;s=300x600;q=60",
+      "owner": "Subham shaw"
+    },
+    {
+      "id": 3,
+      "brand": "maruti suzuki",
+      "title": "maruti suzuki ciaz",
+      "description": "maruti suzuki ciaz 2018 model,petrol",
+      "price": "650000",
+      "category": "cars",
+      "location": "netaji subhash palace,delhi",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/r513hrhbkoyq1-IN/image;s=300x600;q=60",
+      "owner": "Ajay maurya"
+    },
+    {
+      "id": 4,
+      "brand": "apple",
+      "title": "ipad 7th Generation",
+      "description": "ipad 7th Generation,32gb,2020,ios 16",
+      "price": "16000",
+      "category": "tablets",
+      "location": "tilak nagar,delhi",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/wne1v9og2wzt3-IN/image;s=780x0;q=60",
+      "owner": "Suraj singh"
+    },
+    {
+      "id": 5,
+      "brand": "mivi",
+      "title": "Mivi duopods M20",
+      "description": "Mivi duopods M20 true wireless headset",
+      "price": "600",
+      "category": "Accessories",
+      "location": "mumbai,maharastra",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/q8tuazwtcfbu1-IN/image;s=780x0;q=60",
+      "owner": "Nitesh rajak"
+    },
+    {
+      "id": 6,
+      "brand": "TVS",
+      "title": "TVS NTORQ",
+      "description": "TVS NTORQ RACE EDITION GOOD CONDITION SENSER FEATURES URGENT SELL",
+      "price": "61000",
+      "category": "Scooters",
+      "location": "paschim vihar,delhi",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/kwk1aqnlgwv02-IN/image;s=780x0;q=60",
+      "owner": "Rahul das"
+    },
+    {
+      "id": 7,
+      "brand": "montra",
+      "title": "Montra downtown",
+      "description": "Montra downtown frame size L",
+      "price": "17000",
+      "category": "Bicycles",
+      "location": "ettimadai,tamilnadu",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/7nwkqwltpzn42-IN/image;s=780x0;q=60",
+      "owner": "Karthik raj"
+    },
+    {
+      "id": 8,
+      "brand": "puma",
+      "title": "Puma original shoes",
+      "description": "Puma original shoes",
+      "price": "2300",
+      "category": "men",
+      "location": "hydrabad,telengana",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/j6dgtqh2jqpj1-IN/image;s=300x600;q=60",
+      "owner": "Raju yadav"
+    },
+    {
+      "id": 9,
+      "brand": "tissot",
+      "title": "Wrist Watch",
+      "description": "Brand New Wrist Watch With Warranty",
+      "price": "11500",
+      "category": "women",
+      "location": "civil lines,delhi",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/iuxilm0ypfzj2-IN/image;s=780x0;q=60",
+      "owner": "Upma bagaria"
+    },
+    {
+      "id": 10,
+      "brand": "kids dress",
+      "title": "Kids Costume",
+      "description": "Kids Costume Boys Police Dress",
+      "price": "360",
+      "category": "kids",
+      "location": "gandhi nagar,delhi",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/y6vaoy74gtfp2-IN/image;s=780x0;q=60",
+      "owner": "gurpreet singh"
+    },
+    {
+      "id": 11,
+      "brand": "comfort",
+      "title": "BRAND NEW LARK L shape sofa cumbed",
+      "description": "BRAND NEW LARK L shape sofa cumbed with storage at lowest price!",
+      "price": "26999",
+      "category": "Sofa & Dining",
+      "location": "mumbai,maharastra",
+      "photo": "Sofa & Dining",
+      "owner": "Comfort Sofa & Furniture"
+    },
+    {
+      "id": 12,
+      "brand": "Zara interior",
+      "title": "Brand new bed double",
+      "description": "Brand new bed double",
+      "price": "5000",
+      "category": "Beds & Wardrobes",
+      "location": "pune,maharastra",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/9drb8uv3l4vf1-IN/image;s=780x0;q=60",
+      "owner": "Aifaz Qureshi"
+    },
+    {
+      "id": 13,
+      "brand": "Turkish Carpet",
+      "title": "Turkish carpet for sale",
+      "description": "Brand new, unused Turkish carpet for sale 4ft x 6ft.",
+      "price": "9000",
+      "category": "Home Decor & Garden",
+      "location": "andheri west,maharastra",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/7h8jmnk4yyoc1-IN/image;s=780x0;q=60",
+      "owner": "Fareesa fatima"
+    },
+    {
+      "id": 14,
+      "brand": "Luvlap",
+      "title": "Luvlap stroller",
+      "description": "New stroller of luvlap.",
+      "price": "3200",
+      "category": "Kids Furniture",
+      "location": "thane,maharastra",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/gxkdf1kq8msr2-IN/image;s=780x0;q=60",
+      "owner": "Shaheen sekh"
+    },
+    {
+      "id": 15,
+      "brand": "office chair",
+      "title": "Boss office chair",
+      "description": "Urgent sale. Genuine buyers plz call. Selling as need to shift. Price is negotiable by some extent for intrested buyers.",
+      "price": "5000",
+      "category": "other",
+      "location": "mumbai, maharastra",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/pydkpdwpw8dv3-IN/image;s=780x0;q=60",
+      "owner": "Aamir khan"
+    },
+    {
+      "id": 16,
+      "brand": "samsung",
+      "title": "BRAND NEW SAMSUNG LED TV ",
+      "description": "Brand new screen 86.4cm",
+      "price": "75000",
+      "category": "TVs, Video - Audio",
+      "location": "gurgaon,hariyana",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/vm38aswa599g1-IN/image;s=780x0;q=60",
+      "owner": "Swati sharma"
+    },
+    {
+      "id": 17,
+      "brand": "Betamethasone Dipropionate",
+      "title": "Etomidate",
+      "description": "Accountant II",
+      "price": "56462",
+      "category": "Landscaping & Irrigation",
+      "location": "1905 Golden Leaf Terrace",
+      "photo": "http://dummyimage.com/113x100.png/dddddd/000000",
+      "owner": "Dr"
+    },
+    {
+      "id": 18,
+      "brand": "samsung",
+      "title": "Microwave convection",
+      "description": "32l microwave convection Samsung",
+      "price": "10000",
+      "category": "Kitchen & Other Appliances",
+      "location": "Jammu, Jammu & Kashmir",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/r7t52enwy6622-IN/image;s=780x0;q=60",
+      "owner": "Sunaina nanda"
+    },
+    {
+      "id": 19,
+      "brand": "HP",
+      "title": "HP EliteBook 745 G3",
+      "description": "HP EliteBook 745 G3 AMD Pro A10-8700B R6 Processor,256 M.2 SSD,8GB Ram",
+      "price": "15000",
+      "category": "Computers & Laptops ",
+      "location": "Bengaluru, Karnataka",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/21laao88qpe41-IN/image;s=780x0;q=60",
+      "owner": "Precise Computer Solutions"
+    },
+    {
+      "id": 20,
+      "brand": "CANON",
+      "title": "CANON DSLR EOS 200D",
+      "description": "CANON DSLR EOS 200D With EF-S 18-55",
+      "price": "35000",
+      "category": "Cameras & Lenses",
+      "location": "Hyderabad, Telangana",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/3ti7hz9g4u8z2-IN/image;s=780x0;q=60",
+      "owner": "Syed ahmed"
+    },
+    {
+      "id": 21,
+      "brand": "playstation",
+      "title": "PS4 500 GB + Additional Controller + 3 Games",
+      "description": "PS4 500, comes with 2 original dual shock controllers, 3 game cds",
+      "price": "20000",
+      "category": "Games & Entertainment",
+      "location": "Rajpura, Punjab",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/q58m76ap9vcv1-IN/image;s=780x0;q=60",
+      "owner": "Mukul singh"
+    },
+    {
+      "id": 22,
+      "brand": "hitachi",
+      "title": "Double Door Hitachi Refrigerator",
+      "description": "Double Door Hitachi 3 Star Refrigerator. Gross capacity 565 liters, storage volume 510 liters. Stabilizer free model.",
+      "price": "70000",
+      "category": "Fridges",
+      "location": "Noida, Uttar Pradesh",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/fnlso3hnz85u-IN/image;s=780x0;q=60",
+      "owner": "D.K bagga"
+    },
+    {
+      "id": 23,
+      "brand": "HP",
+      "title": "HP USB Wireless Keyboard and Mouse",
+      "description": "HP USB Wireless Spill Resistance Keyboard and Mouse Set with 10m Working Range 2.4G Wireless Technology. 4SC12PA, Black",
+      "price": "700",
+      "category": "Computer Accessories",
+      "location": "Kolkata, West Bengal",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/jy0810bj7gpd3-IN/image;s=780x0;q=60",
+      "owner": "Dibyajyoti Datta"
+    },
+    {
+      "id": 24,
+      "brand": "SEAGATE",
+      "title": "2TB EXTERNAL HARD DRIVE",
+      "description": "2TB EXTERNAL HARD DRIVE FOR SALE ONLY 5K BRAND NEW WITH BOX.",
+      "price": "5000",
+      "category": "Hard Disks, Printers & Monitors",
+      "location": "Siliguri, West Bengal",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/95jiswa09brm2-IN/image;s=780x0;q=60",
+      "owner": "Rana Mandal"
+    },
+    {
+      "id": 25,
+      "brand": "TOSHIBA ",
+      "title": "TOSHIBA 1.5 TON INVERTER AC",
+      "description": "TOSHIBA 1.5 TON INVERTER AIR CONDITION.",
+      "price": "17500",
+      "category": "ACs",
+      "location": "Mumbai, Maharashtra",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/gorsx3pfv1lo1-IN/image;s=780x0;q=60",
+      "owner": "Irfan Ahmad"
+    },
+    {
+      "id": 26,
+      "brand": "Whirlpool",
+      "title": "Whirlpool stainwash Deep clean top load fully automatic washingmachine",
+      "description": "Whirlpool stainwash 6.5kg Deep clean top load fully automatic washing machine with warranty",
+      "price": "6800",
+      "category": "Washing Machines",
+      "location": "Bengaluru, Karnataka",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/nfidlk12u6pr3-IN/image;s=780x0;q=60",
+      "owner": "Sadiq Hussain"
+    }
+  ]
+}

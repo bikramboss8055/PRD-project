@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "../components/Footer";
 import Login from "../components/Login";
 import Navbar from "../components/Navbar";
+import Sliders from "../components/Sliders";
 import Signup from "../components/Signup";
 
 const AllRoutes = () => {
@@ -13,7 +14,7 @@ const AllRoutes = () => {
         element={
           <>
             
-            <Navbar /> <Footer />
+            <Navbar /> <Sliders/> <Footer />
           </>
         }
       />

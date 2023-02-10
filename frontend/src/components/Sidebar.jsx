@@ -54,8 +54,8 @@ const Sidebar = () => {
                 <Button colorScheme={"blue"}>
                   <Link to={"/login"}>Login Or Signup</Link>
                 </Button>
-                <Button colorScheme={"whatsapp"} leftIcon={<FiPlus />}>
-                  {" "}
+                <Button colorScheme={"whatsapp"} leftIcon={<FiPlus />} onClick={()=>setStatus(!status)}>
+                  
                   Sell
                 </Button>
               </Flex>
@@ -70,7 +70,9 @@ const Sidebar = () => {
                   Sell
                 </Button>
                 </Flex>
-                <Button colorScheme={'red'} leftIcon={<BiLogOutCircle/>} >
+                <Button colorScheme={'red'} leftIcon={<BiLogOutCircle/>} 
+                onClick={()=>setStatus(!status)}
+                >
                     Log Out
                 </Button>
               </Flex>
