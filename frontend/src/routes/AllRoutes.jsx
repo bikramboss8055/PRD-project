@@ -5,6 +5,7 @@ import Login from "../components/Login";
 import Navbar from "../components/Navbar";
 import Sliders from "../components/Sliders";
 import Signup from "../components/Signup";
+import Products from "../components/Products";
 
 const AllRoutes = () => {
   return (
@@ -13,8 +14,9 @@ const AllRoutes = () => {
         path="/"
         element={
           <>
-            
-            <Navbar /> <Sliders/> <Footer />
+            <Navbar /> <Sliders />
+            <Products /> 
+            <Footer />
           </>
         }
       />

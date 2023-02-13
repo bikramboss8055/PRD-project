@@ -118,7 +118,7 @@
       "price": "26999",
       "category": "Sofa & Dining",
       "location": "mumbai,maharastra",
-      "photo": "Sofa & Dining",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/tnzg3o3tuz8p-IN/image;s=300x600;q=60",
       "owner": "Comfort Sofa & Furniture"
     },
     {
@@ -178,14 +178,14 @@
     },
     {
       "id": 17,
-      "brand": "Betamethasone Dipropionate",
-      "title": "Etomidate",
-      "description": "Accountant II",
-      "price": "56462",
-      "category": "Landscaping & Irrigation",
-      "location": "1905 Golden Leaf Terrace",
-      "photo": "http://dummyimage.com/113x100.png/dddddd/000000",
-      "owner": "Dr"
+      "brand": "Razer Blackshark",
+      "title": "Razer Blackshark V2 X gaming headphone Brand new condition",
+      "description": "Selling my month old Razer Blackshark V2 X. It’s scratch less and used maybe 3-4 times. Price is fixed. Comes with bill box and all accessories.",
+      "price": "3200",
+      "category": "TVs, Video - Audio",
+      "location": "Pune, Maharashtra",
+      "photo": "https://apollo-singapore.akamaized.net/v1/files/ribrbeulm2a1-IN/image;s=780x0;q=60",
+      "owner": "Sachin pandit"
     },
     {
       "id": 18,

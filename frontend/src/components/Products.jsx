@@ -1,11 +1,78 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import { Box, Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
+import axios from "axios";
 
 const Products = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  let [product, setProduct] = useState([]);
 
-export default Products
+  let data = async () => {
+    let { data } = await axios.get("http://localhost:3001/products");
+    setProduct(data);
+  };
+  useEffect(() => {
+    data();
+  }, []);
+
+  //  console.log(product)
+
+  return (
+    <Grid
+      templateColumns={{
+        base: "repeat(2, 1fr)",
+        sm: "repeat(2, 1fr)",
+        md: "repeat(3, 1fr)",
+        lg: "repeat(4, 1fr)",
+      }}
+      gap={{base:12,sm:12,md:3,lg:10}}
+      // width={{ base: "90%", md: "80%", lg: "90%", xl: "90%" }}
+      w='fit-content'
+      m="auto"
+      my={10}
+      border="1px solid"
+      // justifyContent={'space-evenly'}
+    >
+      {product &&
+        product.map((ele) => (
+          <Flex
+         
+            flexDir={"column"}
+            w={{
+              base: "125px",
+              sm: "175px",
+              md: "215px",
+              lg: '200px',
+            }}
+            h={{ base: "150px",sm: "175px",md: "225px",}}
+            borderRadius={10}
+            boxShadow={"lg"}
+            border={"2px solid #eff1f3"}
+            fontFamily={"sans-serif"}
+            overflow ='hidden'
+          >
+            <Box
+              h={"70%"}
+              // overflow={"hidden"}
+              display="flex"
+              justifyContent={"center"}
+            >
+              <Image src={ele.photo} h="100%"  />
+            </Box>
+            <Box px={{ base: "10px" }} h={"30%"} b>
+              <Heading size={{ base: "xs" }}>₹ {ele.price}</Heading>
+              <Text
+                fontSize={{ base: "10px" }}
+                textOverflow={"ellipsis "}
+                whiteSpace={"nowrap"}
+                overflow={"hidden"}
+              >
+                {ele.title}
+              </Text>
+              <Text fontSize={{ base: "9px" }}>{ele.location}</Text>
+            </Box>
+          </Flex>
+        ))}
+    </Grid>
+  );
+};
+
+export default Products;
