@@ -24,7 +24,7 @@ const Footer = () => {
         bgSize={"10px 10px"}
         p={"20px 3px"}
       >
-        <UnorderedList listStyleType="none" textAlign={"left"}>
+        <UnorderedList listStyleType="none" textAlign={"left"} ml={{base:1,sm:1,md:2}}>
           <Heading
             mb={1}
             fontSize={{ base: "xs", sm: "xs", md: "xs", lg: "sm" }}
