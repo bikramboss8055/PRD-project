@@ -9,13 +9,13 @@ const Signup = () => {
 
   return (
     <Box
-      border={"2px solid"}
+      // border={"2px solid"}
       display="flex"
       alignItems={"center"}
       flexDir={"column"}
       gap={{base:30,sm:30,md:'30px'}}
       pt={5}
-      h={'100vh'}
+      // h={'100vh'}
       bgColor={theme? "blackAlpha.900":"whiteAlpha.500"}
     >
       <Link to={'/'}>

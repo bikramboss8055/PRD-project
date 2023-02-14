@@ -23,51 +23,57 @@ const Products = () => {
         md: "repeat(3, 1fr)",
         lg: "repeat(4, 1fr)",
       }}
-      gap={{base:12,sm:12,md:3,lg:10}}
-      // width={{ base: "90%", md: "80%", lg: "90%", xl: "90%" }}
-      w='fit-content'
+      gap={{ base: 6, sm: 6, md: 3, lg: 10 }}
+      w="fit-content"
       m="auto"
       my={10}
-      border="1px solid"
-      // justifyContent={'space-evenly'}
     >
       {product &&
         product.map((ele) => (
           <Flex
-         
             flexDir={"column"}
             w={{
-              base: "125px",
+              base: "145px",
               sm: "175px",
               md: "215px",
-              lg: '200px',
+              lg: "200px",
+              xl: "266px",
             }}
-            h={{ base: "150px",sm: "175px",md: "225px",}}
+            h={{ base: "150px", sm: "175px", md: "225px", lg: "235px" }}
             borderRadius={10}
             boxShadow={"lg"}
             border={"2px solid #eff1f3"}
             fontFamily={"sans-serif"}
-            overflow ='hidden'
+            overflow="hidden"
           >
             <Box
               h={"70%"}
-              // overflow={"hidden"}
+              
               display="flex"
               justifyContent={"center"}
             >
-              <Image src={ele.photo} h="100%"  />
+              <Image src={ele.photo} h="100%" />
             </Box>
-            <Box px={{ base: "10px" }} h={"30%"} b>
+            <Box
+              px={{ base: "10px" }}
+              h={"30%"}
+              pt={{ base: "0px", sm: "5px", md: "10px" }}
+              borderTop='1px solid #eff1f3'
+            >
               <Heading size={{ base: "xs" }}>₹ {ele.price}</Heading>
               <Text
-                fontSize={{ base: "10px" }}
+                fontSize={{ base: "10px", sm: "10px", md: "14px", lg: "14px" }}
                 textOverflow={"ellipsis "}
                 whiteSpace={"nowrap"}
                 overflow={"hidden"}
               >
                 {ele.title}
               </Text>
-              <Text fontSize={{ base: "9px" }}>{ele.location}</Text>
+              <Text
+                fontSize={{ base: "9px", sm: "9px", md: "12px", lg: "12px" }}
+              >
+                {ele.location}
+              </Text>
             </Box>
           </Flex>
         ))}
