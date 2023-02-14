@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Sliders from "../components/Sliders";
 import Signup from "../components/Signup";
 import Products from "../components/Products";
+import SingleProduct from "../components/SingleProduct";
 
 const AllRoutes = () => {
   return (
@@ -36,6 +37,16 @@ const AllRoutes = () => {
           </>
         }
       />
+      <Route path="/products/:id"
+        element={
+          <>
+            <Navbar/>
+            <SingleProduct/>
+            <Footer/>
+          </>
+        }
+      />
+      
     </Routes>
   );
 };
