@@ -51,8 +51,12 @@ function Navbar() {
             // }}
 
           >
+            <Link to='/'>
             <Image display={{base:'none',sm:'none',md:'inline'}} src={xsell_logo} alt="logo" maxWidth={'150px'}/>
+            </Link>
+            <Link to={'/'}>
             <Image display={{base:'inline',sm:'inline',md:'none'}} src={xsell_logo2} alt="logo" maxWidth={'80px'}/>
+            </Link>
           </Box>
           <Input
             placeholder="select city"

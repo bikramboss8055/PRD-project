@@ -7,14 +7,16 @@ import Login from './components/Login';
 import Footer from './components/Footer';
 import AllRoutes from './routes/AllRoutes';
 import Sliders from './components/Sliders';
+import SingleProduct from './components/SingleProduct';
 
 
 function App() {
   return (
     <div className="App">
      <AllRoutes/>
-
-     {/* <Products/>   */}
+    {/* <Navbar/>
+     <SingleProduct/>
+     <Footer/> */}
     </div>
   );
 }

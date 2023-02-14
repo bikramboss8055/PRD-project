@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Box, Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   let [product, setProduct] = useState([]);
@@ -30,6 +31,7 @@ const Products = () => {
     >
       {product &&
         product.map((ele) => (
+            <Link to={`products/${ele.id}`}>
           <Flex
             flexDir={"column"}
             w={{
@@ -76,6 +78,7 @@ const Products = () => {
               </Text>
             </Box>
           </Flex>
+            </Link>
         ))}
     </Grid>
   );
